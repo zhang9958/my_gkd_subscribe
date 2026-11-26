@@ -1,0 +1,21 @@
+{
+  "base_url": "https://raw.githubusercontent.com/zhang9958/my_gkd_subscribe/d49c6591ec73411326dfa60251dc3e2053c5cf23/gkd-merged.json5",
+  "sources": [
+    {
+      "id": "ganlinte",
+      "name": "甘霖",
+      "repository": "https://github.com/ganlinte/GKD-subscription",
+      "url": "https://raw.githubusercontent.com/ganlinte/GKD-subscription/main/dist/ganlin_gkd.json5",
+      "license": "MIT",
+      "license_url": "https://github.com/ganlinte/GKD-subscription/blob/main/LICENSE"
+    },
+    {
+      "id": "mengnianxiaoyao",
+      "name": "梦念逍遥",
+      "repository": "https://github.com/MengNianxiaoyao/gkd-subscription",
+      "url": "https://raw.githubusercontent.com/MengNianxiaoyao/gkd-subscription/main/dist/gkd.json5",
+      "license": "MIT (package.json declaration)",
+      "license_url": "https://github.com/MengNianxiaoyao/gkd-subscription/blob/main/package.json"
+    }
+  ]
+}

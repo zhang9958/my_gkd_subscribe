@@ -1,0 +1,567 @@
+{
+  "before": {
+    "apps": 1014,
+    "app_groups": 2635,
+    "app_rules": 4216,
+    "global_groups": 9,
+    "enabled_app_groups": 186
+  },
+  "sources": [
+    {
+      "id": "ganlinte",
+      "name": "甘霖",
+      "version": 72,
+      "url": "https://raw.githubusercontent.com/ganlinte/GKD-subscription/main/dist/ganlin_gkd.json5",
+      "license": "MIT",
+      "stats": {
+        "non_ad_groups_excluded": 328,
+        "groups_added": 915,
+        "rules_added": 1392,
+        "apps_added": 25,
+        "duplicate_groups_removed": 84,
+        "duplicate_rules_removed": 59,
+        "invalid_or_mixed_groups_excluded": 62,
+        "supplemental_global_groups_excluded": 3
+      },
+      "skipped": [
+        {
+          "app": "com.gotokeep.keep",
+          "groups": [
+            5
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.dubox.drive",
+          "groups": [
+            2
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.baidu.netdisk.samsung",
+          "groups": [
+            2
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.ss.android.auto",
+          "groups": [
+            1
+          ],
+          "reason": "group 1: preKeys -> 1; group 1: preKeys -> 1"
+        },
+        {
+          "app": "me.ele",
+          "groups": [
+            5
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.ifeng.news2",
+          "groups": [
+            10
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.maidu.gkld",
+          "groups": [
+            10
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.example.servyouappzhuhai",
+          "groups": [
+            0
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.jingyao.easybike",
+          "groups": [
+            8
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.jingyao.easybike",
+          "groups": [
+            9
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.haier.uhome.uplus",
+          "groups": [
+            10
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "me.piebridge.brevent",
+          "groups": [
+            1
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "cn.chuci.and.wkfenshen",
+          "groups": [
+            1
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.huatu.handheld_huatu",
+          "groups": [
+            10
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.huawei.android.thememanager",
+          "groups": [
+            9
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.handsgo.jiakao.android",
+          "groups": [
+            3
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.ss.android.article.news",
+          "groups": [
+            10
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.jingdong.app.mall",
+          "groups": [
+            11
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.jingdong.app.mall",
+          "groups": [
+            12
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.jd.jdlite",
+          "groups": [
+            10
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.lenovo.browser.hd",
+          "groups": [
+            2
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.lenovo.leos.appstore",
+          "groups": [
+            1
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.sankuai.meituan",
+          "groups": [
+            8
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.sankuai.meituan.takeoutnew",
+          "groups": [
+            3
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.sup.android.superb",
+          "groups": [
+            5
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.xunmeng.pinduoduo",
+          "groups": [
+            23
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.qidian.QDReader",
+          "groups": [
+            4
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.vivo.wallet",
+          "groups": [
+            1
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "zhongxinjiantou.szkingdom.android.newphone",
+          "groups": [
+            1
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.hihonor.appmarket",
+          "groups": [
+            6
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.samsung.android.packageinstaller",
+          "groups": [
+            2
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.smzdm.client.android",
+          "groups": [
+            10
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.flutter3.ctangxin.vf0egg",
+          "groups": [
+            0
+          ],
+          "reason": "splash group is disabled by upstream"
+        },
+        {
+          "app": "com.taobao.taobao",
+          "groups": [
+            13
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.taobao.taobao",
+          "groups": [
+            15
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.tencent.qqlive",
+          "groups": [
+            20
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.tencent.news",
+          "groups": [
+            10
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.netease.gl",
+          "groups": [
+            10
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.sina.weibo",
+          "groups": [
+            14
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.weico.international",
+          "groups": [
+            0
+          ],
+          "reason": "group 0: preKeys -> 1"
+        },
+        {
+          "app": "com.hihonor.phoneservice",
+          "groups": [
+            10
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.ximalaya.ting.lite",
+          "groups": [
+            3
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.xingin.xhs",
+          "groups": [
+            1
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.xiaomi.market",
+          "groups": [
+            11
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.mi.health",
+          "groups": [
+            2
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.youloft.icloser",
+          "groups": [
+            1
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.unionpay",
+          "groups": [
+            2
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.unionpay",
+          "groups": [
+            10
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.mygolbs.mybus",
+          "groups": [
+            10
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.eg.android.AlipayGphone",
+          "groups": [
+            1
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.eg.android.AlipayGphone",
+          "groups": [
+            4
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.eg.android.AlipayGphone",
+          "groups": [
+            11
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.sinovatech.unicom.ui",
+          "groups": [
+            1
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.greenpoint.android.mc10086.activity",
+          "groups": [
+            10
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.greenpoint.android.mc10086.activity",
+          "groups": [
+            11
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.ecitic.bank.mobile",
+          "groups": [
+            3
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.hpbr.bosszhipin",
+          "groups": [
+            1
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.google.android.apps.translate",
+          "groups": [
+            4
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.moutai.mall",
+          "groups": [
+            10
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.UCMobile",
+          "groups": [
+            10
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.UCMobile",
+          "groups": [
+            11
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.twitter.android",
+          "groups": [
+            5
+          ],
+          "reason": "account, permission or payment operation excluded"
+        }
+      ]
+    },
+    {
+      "id": "mengnianxiaoyao",
+      "name": "梦念逍遥",
+      "version": 79,
+      "url": "https://raw.githubusercontent.com/MengNianxiaoyao/gkd-subscription/main/dist/gkd.json5",
+      "license": "MIT (package.json declaration)",
+      "stats": {
+        "non_ad_groups_excluded": 361,
+        "groups_added": 230,
+        "rules_added": 442,
+        "duplicate_rules_removed": 185,
+        "duplicate_groups_removed": 269,
+        "invalid_or_mixed_groups_excluded": 10,
+        "apps_added": 4,
+        "supplemental_global_groups_excluded": 9
+      },
+      "skipped": [
+        {
+          "app": "com.tencent.mobileqq",
+          "groups": [
+            0,
+            13
+          ],
+          "reason": "splash group depends on a disabled non-splash group"
+        },
+        {
+          "app": "me.ele",
+          "groups": [
+            5
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.huawei.wallet",
+          "groups": [
+            2
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.jingdong.app.mall",
+          "groups": [
+            11
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.xunmeng.pinduoduo",
+          "groups": [
+            20
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.netease.cloudmusic",
+          "groups": [
+            5
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.ximalaya.ting.lite",
+          "groups": [
+            3
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.unionpay",
+          "groups": [
+            2
+          ],
+          "reason": "account, permission or payment operation excluded"
+        },
+        {
+          "app": "com.eg.android.AlipayGphone",
+          "groups": [
+            4
+          ],
+          "reason": "account, permission or payment operation excluded"
+        }
+      ]
+    }
+  ],
+  "after": {
+    "apps": 1043,
+    "app_groups": 3780,
+    "app_rules": 6050,
+    "global_groups": 9,
+    "enabled_app_groups": 320
+  },
+  "version": 3,
+  "provenance": [
+    {
+      "id": "ganlinte",
+      "sha256": "5624137f8c70566a8dc985990dd18571600efa1c76129734703533ca5ee71c23",
+      "version": 72
+    },
+    {
+      "id": "mengnianxiaoyao",
+      "sha256": "5423b941a5d147c01e2a22da905fe9adf0d60176b704b9ad90891906b6c354af",
+      "version": 79
+    }
+  ]
+}
